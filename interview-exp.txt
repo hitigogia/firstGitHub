@@ -1,0 +1,39 @@
+Hibernate:
+Difference b/w save and persist
+Join in hibernate
+cascading concept. User, vehicle
+transient persistent detatched
+
+
+SPRING:
+Spring bean scopes- singleton, prototype
+How spring boot works internally- what happens when run method is called.
+*****how autoconfiguration works in spring boot***** have you ever seen any autoconfiguration class. any example?\
+Autoconfiguration is a feature that allows library developers to automatically configure beans in the Spring context based on different conditions of the application, such as the presence of certain classes in the classpath, the existence of a bean or the activation of some property
+@Configuration
+@ConditionalOnClass(KafkaTemplate.class)
+public class KafkaAutoConfiguration {
+
+
+We can see this configuration class would only be activated if the KafkaTemplate class is present in the application classpath (@ConditionalOnClass annotation), so if the developer added the specific Apache Kafka dependency, Spring will autoconfigure itself with the appropriate beans.
+
+
+*****how spring boot connects to database? which JPA implementation you used
+why microservices
+use of Profiles in spring boot?
+spring boot actuator
+transaction management  done in spring-
+Now let us implement transaction management. We will be using the Transactional annotation. Transaction is a cross cutting concern and it is implemented using AOP in Spring Boot.
+controller->proxy ->txn manager->real service
+If Spring detects the @Transactional annotation on a bean, it creates a dynamic proxy of that bean.
+
+The proxy has access to a transaction manager and will ask it to open and close transactions / connections.
+
+The transaction manager itself will simply do what you did in the plain Java section: Manage a good, old JDBC connection.
+
+With either frameworks (or rather: all frameworks in the Spring ecosystem), you will always use the @Transactional annotation, combined with a transaction manager and the @EnableTransactionManagement annotation. There is no other way.
+The only difference with Spring Boot is, however, that it automatically sets the @EnableTransactionManagement annotation and creates a PlatformTransactionManager for you - with its JDBC auto-configurations
+lazy loading wrt spring bean creation
+
+
+consumer group in Apache Kafka?

@@ -1,0 +1,41 @@
+Spring bean scopes- singleton, prototype
+How spring boot works internally- what happens when run method is called.
+how auto configuration works
+how spring boot connects to database? which JPA implementation you used
+why microservices
+use of Profiles in spring boot?
+spring boot actuator
+transaction management  done in spring-
+Now let us implement transaction management. We will be using the Transactional annotation. Transaction is a cross cutting concern and it is implemented using AOP in Spring Boot.
+controller->proxy ->txn manager->real service
+If Spring detects the @Transactional annotation on a bean, it creates a dynamic proxy of that bean.
+
+The proxy has access to a transaction manager and will ask it to open and close transactions / connections.
+
+The transaction manager itself will simply do what you did in the plain Java section: Manage a good, old JDBC connection.
+
+With either frameworks (or rather: all frameworks in the Spring ecosystem), you will always use the @Transactional annotation, combined with a transaction manager and the @EnableTransactionManagement annotation. There is no other way.
+The only difference with Spring Boot is, however, that it automatically sets the @EnableTransactionManagement annotation and creates a PlatformTransactionManager for you - with its JDBC auto-configurations
+lazy loading wrt spring bean creation
+@springbootapplication
+
+Fail safe Fail fast
+Concurrenthashmap vs hashmap vs synchronised map
+Hashset how they are sorted
+one logic question- Java Program To reverse a string
+swap two numbers without using a third variable?
+check whether string has all unique characters.
+Write a Java Program to iterate HashMap using While and advance for loop.
+JPA vs hibernate
+Join in hibernate
+update vs merge in hibernate.
+caching in hibernate
+lazy loading in hibernate
+The @RestController annotation in Spring MVC is nothing but a combination of @Controller and @ResponseBody
+
+Read more: https://javarevisited.blogspot.com/2017/08/difference-between-restcontroller-and-controller-annotations-spring-mvc-rest.html#ixzz774tcZOuw
+
+JAX RS vs spring REST
+AX-RS is the standard Java specification for RESTful web services	Spring REST is an alternate way of writing REST services in Java, it does not implement JAX-RS
+JAX-RS is just a specification, you will need to include an implementation like Jersey in order to write REST services	Spring REST is the complete implementation for RESTful services by Spring. It can be used by itself. It does not implement JAX-RS
+JAX-RS uses standard annotations that are part of Java EE	Spring REST uses its own custom annotations for REST

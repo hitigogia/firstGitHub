@@ -1,0 +1,19 @@
+JPA,Hibernate, Spring data JPA, database connection pooling,inheritance, multitenancy in hibernate,n+1 problem in hibernate, cascading, composite key as primary key in hibernate, inheritance, caching,Validator 
+Data structures, performance of a given code, algorithms, Memory leaks,memory types allocated by JVM ,class loaders in JVM
+Multithreading
+Collections
+Design patterns, 12 factor app principles
+Java 8 features
+Microservices, SOA,monolith architecture,txn management in distributed systems.
+Message Queues
+REST, SOAP
+Spring boot-works internally, what happens when you run a spring boot app.why spring boot,actuator, commandlinerunner
+Spring MVC, sprint tx management 	
+Unit testing
+SQL 
+Splunk, git, maven
+problem you solved
+CI/CD Kubernetes
+log4j
+versions, db connectivity, pooling
+hub n spoke, soa

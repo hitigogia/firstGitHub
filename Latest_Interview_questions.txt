@@ -1,0 +1,197 @@
+1. Can we return an object from predicate
+2. How do handle exceptions in Stream API
+3. Explain exceuter framework
+4. Explain MicroServices Architecture
+5. How circuit breaker pattern will work
+6. Explain production issues which you have faced
+7. Explain Spring security
+
+https://dzone.com/articles/exception-handling-in-java-streams
+https://howtodoinjava.com/java8/how-to-use-predicate-in-java-8/
+https://www.geeksforgeeks.org/java-8-predicate-with-examples/
+https://zetcode.com/java/predicate/
+
+8. Explain About API Gateway
+9. Expalin Cyclic Barrier
+
+
+Real Page::::
+1. Difference between controller and Rest Controller
+2. Remove duplicates from Employees Records
+3. Explain Different Types of Data Bindings in Angular
+4. Thread Life Cycle
+5. Component Life Cycle in Angular
+6. Design a Rest API to fetch data from excel file and store it in DB, excel will have more than 5 Lakh Records
+7. Predicates and Lambda Expressions
+8. How do we configure connection pool in spring boot apps
+9. Inter Thread Communication
+10. Executer Framework where we have used
+11. Microservices project architecture
+
+Ness Technologies::::
+1. Explain Build Life cycle
+2. Difference Between Fail Fast and Fail Safe iterarter
+3. How to get only values from the map
+4. Can Enums have constructor
+5. How to filter distict elements from two lists
+6. Why default and static methods in interface
+7. Merge two different lists
+8. Swap first and last word and reverse rest of the words
+9. Difference between comparable and comparator
+10.Can we copy ArrayList into Set and what happens when we try to add a element into set which is duplicate
+11. Why Lambda expressions are used
+12. Controller Advice Annotation
+13. different intermediate operations in Stream API
+14. Difference between map and flat map
+
+BOA:
+
+1. Singleton design pattern
+2. Difference between Iterater, ListIterater and Enumeration
+3. Second Highest Salary
+4. Serialization and deserialization
+5. Working of HashMap in depth
+6. Reverse a Linked List
+7. Difference between JDK, JRE and JVM
+8. FailFast and FailSafe Iteraters
+9. Reverse a Linked List
+10.Exceptions Handling
+11. Serializatin and deserialization
+12. vowels count in the character array
+
+
+Tavant & UHG ::::
+1. Different types of design patterens in spring framework
+2. Different types of Mapping in hibernate
+3. Difference between Object locking and class locking
+4. Difference between controller advice and rest controller advice
+5. explain batch update in spring
+6. Expalin spring security architecture
+7. Facade , builder and Prototype design pattersns
+8. Different annotatios used in spring framework
+9. Remove Common elements from array using streams
+10. Create new array of common elements
+11. How to analyze heap dump
+12. What are dynamic proxies in spring beans
+13. Different types of injections available in spring
+14. Generics provides which type of Type Safety
+15. How do you create spring boot project
+
+
+Capgemini::::
+1. What is observable
+2. What is Service in angular
+3. @ConfigurationProperty
+4. different types of rxjs operaters
+5. rxjs - map, mergemap, switchmap
+6. AOT in angular
+7. Types of selectors in css
+8. Latest features of angular
+9. Dependency Injection
+10. How to create a spring boot project
+11. How autoconfiguration works in spring boot
+12. Real usecase for @Prototype bean
+13. How to configure multiple data sources in spring boot application
+14. What is activated route
+15. Predicate Chaining
+16. How to avoid duplicate records insertion using composite primary key in spring boot
+17. spring boot actuater
+18. Composite primary key
+
+19. G1 GC Garbage collector
+20. Rest architecture in your project
+21. How to create a restful webservice with out using spring
+22. SOLID design principles
+23. how to get exactly 5 objects in spring application
+24. Reduce terminal operation in streams
+25. How to process millions of records effectively
+26. war file structure for spring boot application
+27. What is metaspace
+28. User defined index creation
+29. Transaction management
+30. How do you call stored proc in spring jdbc
+
+31. difference between reverse proxy and api gateway
+32. how do you scale microservices
+33. explain SOA
+34. how do we deployments in SOA and messaging oriented archiecture
+35. How autoscalar works in PCF
+36. How do we mock environment varaibles using mockito
+37. what is service registry in microservices
+38. How do you create application context in junit
+39. can we customize the application properties file locations
+40. On what basis autoscaleing functionality will create a new resource
+41. Difference between POST and PUT
+42. what happens if we remove @EnableAutoConfiguration annotation in spring boot applications
+43. 12 Factor principle
+44. Internal Working of HashSet
+45. How do we create custom Executer Framework
+46. Difference between execute and submit
+47. working of zuul, eureka, ribbon, configuration server
+48. Countdown latch, Cyclc Barrier
+49. How do we create executer framework
+50. How do we break singleton pattern using serialization
+51. Exception handling hirerchacy
+52. Explain about @SpringBootApplcation
+53. Difference between properties file and yml file
+54. difference between hashtable and concurrenthashmap
+55. How do we unit test a void return type method using junit
+56. Custom HashSet implementation
+57. Epalin Race Condition
+58. Explain use of dialect
+
+https://computersciencesellers.com/p/core-java-interview-questions
+https://www.youtube.com/watch?v=ahBC69_iyk4&ab_channel=DefogTech
+
+https://jhooq.com/categories/spring-boot/
+https://jhooq.com/requested-access-to-resource-is-denied/
+
+https://www.youtube.com/c/RahulWagh/playlists -- Excellent Resources for Docker releated stuff
+https://www.youtube.com/watch?v=iIYw0Z0AI1c&ab_channel=RahulWagh
+
+https://jhooq.com/spring-boot-with-docker/ -- Must Check
+
+59. Difference between pathvariable and pathparam
+60. Explain about DB Indexes
+61. Create a Restfulwebservice from scratch
+62. How hashset works internally
+63. SQL query to find common products purchased by a customer
+64. reverse a string by using recursion
+65. What is immutability
+66. Explain Singleton design pattern
+67. How do we restrict spring boot actuators for specific endpoints like admin
+68. Methods inside object class
+69. Design a chess game
+70. How many ways can we invoke a Garbage Collector
+71. how do we secure actuator endpoints based on roles in micro services
+72. internal working of put method in java hashmap
+73. ArrayMap internal working
+74. How do we validate common input parameters in micro service
+75. How to get duplicates from lists
+
+
+https://www.kennybastani.com/2017/01/building-event-driven-microservices.html
+https://github.com/kbastani/spring-cloud-microservice-example
+
+76. Explain spring security architecture
+77. Difference between get Mapping and Post Mapping
+78. Difference between RequestBody and RequestEntity
+79. RequestMethod.GET and RequestMethod.Post
+80. swagger specifications
+81. End to End design of Restful api including non functional requiremnts
+82. Difference between intercepter and filter
+83. Open API specifications
+84. Swagger Specifications
+85. How do you map userdetails service
+86. CORS
+87. Two Jars 7 Liters problem
+88. How do we parse for a field in dynamically created json response
+89. what happens if we inject a prototype scoped bean into singleton bean
+90. can we have 3 different beans with same name and scoped
+91. SQL query to fetch top 5 sales from departments and employee table
+
+
+  
+
+
+ 

@@ -1,0 +1,52 @@
+1)how spring transaction management works( check AOP)
+2)different ways to create spring bean
+3)hibernate vs jdbctemplate
+4)circular dependency (which injection method)
+5)entity class can be final in hibernate?
+6)composite primary key in hibernate?
+7)how a spring boot application starts?
+7)starters in spring boot?,actuator,spring-boot-maven-plugin?auto configuration?
+8)OOM
+9)core java- fibnocci
+10)program to sort a map by value.
+11)failifast/safe
+12) why wrapper?
+13)Java Program To Count Occurrences Of Each Character In String :
+14)How To Remove Duplicate Elements From ArrayList In Java? sort an arraylist containing student objects.
+15)Reverse Each Word Of A String 
+16)Logic Used To Find The Sum Of All Digits Of A Number In Java :
+different ways to create spring bean
+singleton?thread safe?
+lazy initialisation of spring beans- is it default behavior? eager?singleton?
+@controller,@repository,@service,,@component
+spring transaction management
+circular dependency (which injection method)
+17) Mention what is the difference between PUT and POST?
+18) tools or API for developing or testing web api?-Spring REST web service using MVC
+Jersey API
+CXF
+Axis
+Restlet,
+
+19)Can a class extend more than one class in java (Multiple inheritence possible in java?)
+20)Functional interface in java 8?
+21)Can we override a super class method which is throwing an unchecked exception with checked exception in the sub class?
+
+No. If a super class method is throwing an unchecked exception, then it can be overridden in the sub class with same exception or any other unchecked exceptions but can not be overridden with checked exceptions.
+22)How To Check The Equality Of Two Arrays In Java?
+What will be the boolean “flag” value to reach the finally block?
+
+try {
+	if (flag) {
+		while (true) {
+		}
+	} else {
+		System.exit(1);
+	}
+} finally {
+	System.out.println("In Finally");
+}
+
+How to find largest number in an array in Java?
+arr[]= {5, 45,20,80,4,160,90,86}
+23)session vs sessionfactory

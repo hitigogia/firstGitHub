@@ -1,0 +1,231 @@
+design patterns
+importance of equals and hashcode  
+compareTo overrding rules
+marker interfaces
+Cloneable
+serializable
+volatile  
+java8 features
+flatmap  
+
+Threads  
+Threads communication
+Callable
+concurrency
+CyclicBarrier and CountDownLatch
+How do you ensure that N thread can access N resources without deadlock
+blocking queue
+race condition
+deadlock and how to prevent it
+executorservice  
+Live lock in multithreading  
+
+
+singleton
+Immutable  
+Garbage collector and its type
+collections
+collection vs Collections  
+internal working of array and arraylist  
+memory structure inside jvm
+
+java8 streams internal functiong  
+what does wsdl contain
+linkedlist and circularlinkedlist implementation and when to use what  
+what is elastic search  
+what is one thing you want to see as java feature which is not available currently
+
+
+display diagnol elements of a matrix
+program to delete odd value nodes from a linkedlist -
+design hotel booking system with lot of flexibility to add another bed/chair
+
+
+spring
+
+qualifier
+scopes  
+spring bean life cycle
+IOC container  
+importance of postconstruct and predestroy
+spring injection types
+steorotype annotations?
+springboot  how it works internally
+spring aop implementation
+what feature in spring checks the production readiness of a application  actuator
+
+implement hibernate level2 caching
+how to convert monolithic app to springboot app
+how to perform secure transmission
+hibernate  get and load difference
+how to achieve transaction when dealing with 2 different databases
+different ways to implement load balancing
+why to go for licenses webservers when tomcat is open source
+best way to save / modify 1 lakh records in hibernate
+how to ensure code meets standards
+what is latching w.r.t to multithreading
+autmation tools used in ur project  
+
+
+can you explain java streams  programs
+100 employees in a list get all salaries in another list
+
+
+writing the rest-api urls   versioning why to go for?
+
+what all headers used in rest api
+get put post delete
+
+when to use pathparams and queryparams
+
+how many ways to pass employee data to endpoint  
+
+
+draw table structure for manytomany relationship
+why we need transactions?
+unique(allows null) vs primary key (not null & unique)
+
+what is the default logger in spring framework?   logback
+how to override it?  log4j
+oops abstraction and encapsulation  with examples
+inner classes
+
+
+generics with wild cards
+Enum  
+inner classes
+
+Hibernate
+SQL/PLSQL
+
+
+servlets   why it is used and how it works  
+unit testing  Junits
+Authorization
+servlets  methods  
+Design patterns -
+Java 8
+Spring
+wsdl  
+IO
+Multithreading
+sorting algorithms and searching algorithms
+
+ 
+
+Tech2
+
+convert number to words (100 -> one hundred)
+
+
+Why u r changing the job  
+Tech stack u upgraded in the project
+How u will debbug production issue
+How u will trace the issue if it is not found in logs
+what all u check for when doing code reviews
+Why and When will use SOAP and RestFul service.
+
+How u will manage db connections, if application exceded the limit without performance impact
+architecure explain  
+most challenging work u faced till now  
+production issue how to debug  
+
+two dbs how to configure in single application  
+how to maintain different connection pools Hikari connection pool  
+How u will move code to production  
+Distributed services how to manage the transactions
+
+
+thid party urls how to test
+code coverage
+how to handle exceptions at junits
+     
+
+
+
+springboot challenges u faced  
+ci/cd process
+best coding pratices you follow  
+************************************************************************************************
+1)Spring bean lifecycle
+2)bean scopes
+3)Design Patterns
+4)Linkedlist vs circular linkedlist, reverse a linked list
+5)Kafka
+6)XA transaction implementation, atomikos?
+7)resume
+8)REST security
+9)Algos:
+	1) bubble sort program 
+	2) BST program 
+10)garabge collection works
+11)How to sort a map?
+12)How to find the number of tables and their columns in SQL db?
+13)SAGA pattern - outbox/CQRS
+14)Channel api retry error handling
+15)pagination in hibernate
+16)spring cloud, cloud config
+***************************************************************************************
+
+2)Channel api error handing
+3)architecture
+core java questions,sort a map
+txn propagation levels
+garbage collection
+6)Collections
+16)spring cloud, cloud config
+Inheritence strategies
+
+*******************************************24/11/2022************************************************
+1)Hibernate staledataexcepiton?
+2)Indexing in SQL. advantages, disadvantages
+3)restaurant DB design, create REST end points, how will you secure REST. e.g administrator / hotel staff different set of permissions
+-followup question report to be generated daily at 9:30 PM to get orders in the whole day , their amount.Spring scheduler? what if instance/application is down how will you generate the report(Quartz tool or something he wanted to hear)
+4)Docker runs only one linux? How is docker deployment different from VM deployments
+5)Kafka architecture
+6)if 2 consumers within same application have subsribed to kafka topic only one should consume how?
+7)If two instances of application execute some logic and I want logic execution should not be done by other instance of one instance is alread running it - answered as DB table locks
+8)How blaze works(any rule engine, how do you invoke rule)
+9)How sonar works
+10)How to write SOAP client
+11)what is JAX/RS, JAX WS, JAXB
+12 inner join vs outer join.
+13)Feature of Kafka (why better than other queueing systems)
+
+SECOND ROUND
+1)Explain your application architecture
+2)I want to call SOAP service without UI code. How can I? Answer is use the tool SOAP UI
+3)How do you authenticate/authorise SOAP calls
+4)How do you authenticate/authorise REST calls? DIfference between token and key
+5)How do you deploy code?what happens after you commit the code
+6)JMS supports multiple consumers?
+7)Kafka vs JMS(Point to point ve pub sub systems)
+8)Why Kafka and why not just APIs between two systems?
+9)You want to replace Kafka with RabbitMQ in future , dont you think it will involve lot of code changes in both systems..why not just APIs
+10)Stored procedure vs normal SQL which one is faster and why
+11)how to test private method in junits
+12)how to mock some API in junit
+13)if I hit a query in oracle and then hit the same query again. will it be faster? is it cached?
+14)You have to build custom ORM framework. what points you will keep in mind
+15)if you want your system to be migrated to cloud, what will be your strategy/steps
+16)Write a SQL query to get all employees for which there is no address table record.
+17)Diff between queue and topic. (wierd question, didnt get it)
+18) how are performance issues identified in your application? solved any Performnce issue?explain
+19)What all type of code quality checks SONAR does?
+
+
+*****************************************************25/11/2022************************************************
+1)Java 8 features. any disadvantages of using streams? SYnchorisation in streams?
+2)Kafka consumer group?
+3)Role of zookeper..we just have one broker in the cluster , what is the role of zookeper
+4)How are consumers keeping track where they left off if suddenly all consumers go down
+5)Write a program to find every three numbers in the list whose sum is 20. they can be adjacent - write one logic . Follow up question what if they are not adjacent
+6)You have a cache which can store 5 things and whenever 6th element comes up, the least accessed element should be remove- . How to implement this
+7)What is producer consumer problem ? Can we solve this problem using any inbuilt java class?CyclicBarrier can solve this?- answer is semaphore
+8)what if I want second instance of singleton bean?
+9)how can we improve SQL query. Explain pagination implementation
+10)how do you do code reviews
+11)Secure REST APIs? 
+12)Hystrix?
+13)What is data serialisation wrt Kafka. How did you serialise and deserialise the msgs in Kafka in your MS.
+

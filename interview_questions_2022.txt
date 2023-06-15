@@ -1,0 +1,68 @@
+Question Asked in infosys
+
+---- 1st round-----------
+1)What is spring  boot
+2)Spring MVC flow
+3)what is @Springbootappliation
+4)What is RestController
+5)Can we extend interface
+6)What are the feature of java 8
+7)Write a program to filter using java 8
+8)differce between stringbuffer and string builder
+9)Where is object gets created  in memory
+
+---------2nd round----------
+1)Differnce between spring and spring boot
+2)what are the diffrent type of annotation have u used 
+3)What are diffrent type of DI 
+4)what is autowireing
+5)without restarting application in production can we change application propeties( ye to aap ne batya tha actuator endpoint refresh )
+6)Do you know SOLID Principles and give me example for each
+7) What is IOC , in continue spring works only on IOC ?
+8)What is the benifit of crudrepository
+
+===================================================================================================================================================
+ Wipro
+ 
+ 1) features of java 8
+ 2)List<Customer> getFilteredList(List<Customer> list, String customerName) 
+ i) above method filter based on name
+ ii)after filter remove duplicate from the list
+ ==================================================================================================================================================
+ ADP
+1) bubble sort program 
+2) BST program 
+3) if we don't save in hibernate and commit what will happen and in continue what will happen if we try to get an object .
+4) Can we use different names in set objects or get in hibernate( ye mujhe utha samjh nahi aya kya puch reha tha).
+5)Have you worked on domain driven or event driven programming?
+6) Have you worked  on any queues and why do we use queues?
+
+===================================================================================================================================================
+
+1)What are diffent type of design pattern
+2)Create singleton design, and type of singleton desingn pattern
+3)What is factory pattern
+4)Sort employee list and group by dept id in java 8
+5)how garabge collection works in java
+6)what is cluter index and non cluster index (sql)
+7)What is thread pool
+8)What is Executor frame work.
+9)diffent types of Executor
+10)Differnce between Requestmapping and getmapping
+11)Differnce between soap and wsdl
+12) how do you implement security in your project
+13)anagram program
+14)what is optional in java 8 and used for
+15)How Set works
+16) How Hashmap works
+17) What change is made in Hashmap in java 8
+18)What is use of stream in java 8
+19) how do we load all rows and colum  at a time without slwoing or affecting performance ( hibernate using pagination)
+20) Sum the List<Integer> numbers = Arrays.asList(3, 2, 2, 3, 7, 3, 5); get sum for list
+21)Exception handling in Spring boot
+22)what is Controlleradvice
+23)how Client can  consume both xml or json format for  same request(pura question yaad nahi hai)
+
+
+
+
