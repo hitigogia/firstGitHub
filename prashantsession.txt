@@ -1,0 +1,37 @@
+XML +XSD -->WSDL using spring class. ANT target uses spring class
+
+REST - JAX-RS(jersey,resteasy,wink), bootstrap-servlete/filter- frontcontroller design pattern
+spring-rest
+in GET only string
+POST-custom data/json/XML
+
+ service:jmx:jmxmp://11.16.34.28:9876
+service:jmx:jmxmp://localhost:9876
+
+11.16.75.108
+33246
+
+service:jmx:jmxmp://11.16.75.108:33246
+
+8080
+tcp
+11.16.41.91
+36742
+9876
+tcp
+11.16.41.91
+36741
+
+service:jmx:jmxmp://11.16.41.91:36741
+service:jmx:jmxmp://11.16.71.213:33404
+8080
+tcp
+11.16.71.213
+33405
+9875
+tcp
+11.16.71.213
+33404
+service:jmx:jmxmp://11.16.34.28:43699
+service:jmx:jmxmp://11.16.75.108:33248
+11.16.34.28:43699
